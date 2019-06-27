@@ -13,6 +13,12 @@ namespace Prime.Services
             if (candidate == 2){
                 return true;
             }
+            if (candidate == 3){
+                return true;
+            }
+            if (candidate == 4){
+                return false;
+            }
             throw new NotImplementedException("Please do it first");
         }
     }
